@@ -3,6 +3,9 @@
     text-transform: uppercase;
     font-weight: 700;
 }
+img.logo{
+    margin-left: 140px;
+}
 img.anh3 {
     max-width: 1000px;
 }
