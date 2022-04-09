@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/Thongke.css">
+</head>
+<body>
+    <!-- Start Nav -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Trangchu.html"><img src="../Hinhanh/logo.webp" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="Thongke.html">Thống kê</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cửa hàng</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="../HTML/Dangnhap.html"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+            </li>
+          </ul>
+        </span>
+      </div>
+    </div>
+  </nav>
+  <!-- End Nav -->
+
+  <!-- Start Dashboard -->
+  <div class="container" id="con_Dash">
+      <div class="row gx-5">
+          <div class="col">
+              <div class="order">
+                  <div class="ord_icon_1">
+                    <i class="fa-solid fa-shop"></i>
+                  </div>
+                  <div class="ord_text">
+                      <div class="numbertxt">
+                          250
+                      </div>
+                      <div class="txt">
+                          Đơn hàng mới
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="order">
+                <div class="ord_icon_2">
+                    <i class="fa-solid fa-user-group"></i>
+                </div>
+                <div class="ord_text">
+                    <div class="numbertxt">
+                        1000
+                    </div>
+                    <div class="txt">
+                        Khách hàng 
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="order">
+                <div class="ord_icon_3">
+                    <i class="fa-solid fa-sack-dollar"></i>
+                </div>
+                <div class="ord_text">
+                    <div class="numbertxt">
+                       $ 2000
+                    </div>
+                    <div class="txt">
+                        Doanh thu
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  <!-- End Dashboard -->
+
+  <!-- Start Recent Orders -->
+  <div class="container" id="con_Rec">
+      <div class="row gx-5">
+          <div class="col">
+              <div class="recent">
+                  <div class="row" >
+                    <h3>Trạng thái đơn hàng</h3>
+                  </div>
+                  <div class="row" id="row_tb">
+                      <table>
+                          <tr>
+                              <th>Tên khách hàng</th>
+                              <th>Ngày đặt</th>
+                              <th>Trạng thái</th>
+                          </tr>
+                          <tr>
+                              <td>Nguyễn Văn A</td>
+                              <td>01-10-2021</td>
+                              <td><div class="status_com">Đã hoàn thành</div></td>
+                          </tr>
+                          <tr>
+                            <td>Nguyễn Văn B</td>
+                            <td>01-10-2021</td>
+                            <td><div class="status_pend">Đang xử lý</div></td>
+                        </tr>
+                        <tr>
+                            <td>Nguyễn Văn C</td>
+                            <td>01-10-2021</td>
+                            <td><div class="status_com">Đã hoàn thành</div></td>
+                        </tr>
+                        <tr>
+                            <td>Nguyễn Văn D</td>
+                            <td>01-10-2021</td>
+                            <td><div class="status_pend">Đang xử lý</div></td>
+                        </tr>
+                        <tr>
+                            <td>Nguyễn Văn E</td>
+                            <td>01-10-2021</td>
+                            <td><div class="status_com">Đã hoàn thành</div></td>
+                        </tr>
+                        <tr>
+                            <td>Nguyễn Văn F</td>
+                            <td>01-10-2021</td>
+                            <td><div class="status_com">Đã hoàn thành</div></td>
+                        </tr>
+                      </table>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="todo">
+                <div class="head">
+                    <h3>Việc cần làm</h3>
+                </div>
+                <ul class="todo-list">
+                    <li class="completed">
+                        <p><i class="fa-solid fa-plus"></i> Nhập hàng mới</p>
+                    </li>
+                    <li class="completed">
+                        <p><i class="fa-solid fa-plus"></i> Kiểm tra hàng</p>
+                    </li>
+                    <li class="not-completed">
+                        <p><i class="fa-solid fa-plus"></i> Phân loại hàng</p>
+                    </li>
+                    <li class="completed">
+                        <p><i class="fa-solid fa-plus"></i> Chất lượng dịch vụ</p>
+                    </li>
+                    <li class="not-completed">
+                        <p><i class="fa-solid fa-plus"></i> Thống kê và so sánh doanh thu</p>
+                    </li>
+                </ul>
+            </div>
+          </div>
+      </div>
+  </div>
+  <!-- End Recent Orders -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
