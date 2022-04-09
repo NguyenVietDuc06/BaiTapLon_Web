@@ -1,0 +1,47 @@
+.login form{
+    display: block;
+    width: 300px;
+}
+.login h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.col{
+    display: flex;
+    justify-content: center;
+}
+body{
+    color: white;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    font-family: sans-serif;
+    background-color: #3B4A6B;
+}
+form #nametxt{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+form #passtxt{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+form #btn{
+    margin: auto;
+    padding: 10px;
+    width: 40%;
+    background-color: #e6c511;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#text_error{
+    text-align: center;
+    color: red;
+    font-size: 25px;
+}
